@@ -18,7 +18,7 @@ what3words:
 layout: workshop
 ---
 
-<div class="card mb-3">
+<div class="card mb-3 border-0 bg-light">
   <div class="card-body">
     <p>
       <strong>Reproducible Data Analysis for Mental Health Research</strong> is a four-session online workshop series for PhD students, postdoctoral researchers, and other research staff in the UCL Division of Psychiatry.
@@ -34,37 +34,37 @@ layout: workshop
 
 <div class="row g-3 pb-3">
   <div class="col-md-6">
-    <div class="card h-100">
-      <h5 class="card-header">The Carpentries</h5>
+    <section class="card h-100" aria-labelledby="carpentries-heading">
+      <h2 id="carpentries-heading" class="h5 card-header">The Carpentries</h2>
       <div class="card-body">
         <p><strong><a href="https://carpentries.org">The Carpentries</a></strong> teaches foundational coding and data science skills to researchers through participatory, hands-on workshops.</p>
         <p class="mb-0">This workshop follows Carpentries teaching practices and uses established Software Carpentry lesson materials, while selecting the episodes most relevant to our audience and available teaching time.</p>
       </div>
-    </div>
+    </section>
   </div>
   <div class="col-md-6">
-    <div class="card h-100">
-      <h5 class="card-header">Code of Conduct</h5>
+    <section class="card h-100" aria-labelledby="coc-heading">
+      <h2 id="coc-heading" class="h5 card-header">Code of Conduct</h2>
       <div class="card-body">
         <p>Everyone participating in Carpentries activities is required to follow the <a href="https://docs.carpentries.org/policies/coc/">Carpentries Code of Conduct</a>.</p>
         <p class="mb-0">The workshop is intended to provide a supportive environment in which learners can ask questions, make mistakes, and work through exercises together.</p>
       </div>
-    </div>
+    </section>
   </div>
 </div>
 
-<div class="card mb-3">
-  <h5 class="card-header">Workshop Team</h5>
+<section class="card mb-3" aria-labelledby="team-heading">
+  <h2 id="team-heading" class="h5 card-header">Workshop Team</h2>
   <div class="card-body">
     <p class="mb-0">
       <strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a> and <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a><br>
       <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>
     </p>
   </div>
-</div>
+</section>
 
-<div class="card mb-3">
-  <h5 class="card-header">Workshop Logistics</h5>
+<section class="card mb-3" aria-labelledby="logistics-heading">
+  <h2 id="logistics-heading" class="h5 card-header">Workshop Logistics</h2>
   <div class="card-body">
     <dl class="mb-0">
       <div class="row">
@@ -92,21 +92,20 @@ layout: workshop
       </div>
     </dl>
   </div>
-</div>
+</section>
 
-<div class="card mb-3">
-  <h5 class="card-header">Registration and Collaborative Notes</h5>
+<section class="card mb-3" aria-labelledby="registration-notes-heading">
+  <h2 id="registration-notes-heading" class="h5 card-header">Registration and Collaborative Notes</h2>
   <div class="card-body">
     <div class="row g-3">
       <div class="col-sm-6">
         <div class="card text-center h-100">
           <div class="card-body">
-            <h5 class="card-title">Registration</h5>
+            <h3 class="h5 card-title">Registration</h3>
             {% if page.eventbrite %}
-            <p class="card-text">Eventbrite registration is available for this workshop.</p>
-            <p class="card-text mb-0"><strong>Eventbrite event ID:</strong> {{ page.eventbrite }}</p>
+            <p class="card-text mb-0">Register using the Eventbrite checkout below.</p>
             {% else %}
-            <p class="card-text mb-0">Registration details will be added here.</p>
+            <p class="card-text mb-0">Eventbrite registration details will be added here.</p>
             {% endif %}
           </div>
         </div>
@@ -114,42 +113,56 @@ layout: workshop
       <div class="col-sm-6">
         <div class="card text-center h-100">
           <div class="card-body">
-            <h5 class="card-title">Collaborative Notes</h5>
+            <h3 class="h5 card-title">Collaborative Notes</h3>
             <p class="card-text">Use our shared UCL collaborative notes for questions, links, code snippets, and notes during the workshop.</p>
             <a href="{{ page.collaborative_notes }}" class="btn btn-primary">Open Collaborative Notes</a>
           </div>
         </div>
       </div>
     </div>
+    {% if page.eventbrite %}
+    <div class="mt-3">
+      <p><strong>Some adblockers block the registration window. If you do not see it below, please check your adblocker settings.</strong></p>
+      <div id="eventbrite-widget-container"></div>
+      <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+      <script type="text/javascript">
+        window.EBWidgets.createWidget({
+          widgetType: 'checkout',
+          eventId: {{ page.eventbrite }},
+          iframeContainerId: 'eventbrite-widget-container',
+        });
+      </script>
+    </div>
+    {% endif %}
   </div>
-</div>
+</section>
 
-<div class="card mb-3">
-  <h5 class="card-header">Surveys</h5>
+<section class="card mb-3" aria-labelledby="surveys-heading">
+  <h2 id="surveys-heading" class="h5 card-header">Surveys</h2>
   <div class="card-body">
     <div class="row g-3">
       <div class="col-sm-6">
         <div class="card text-center h-100"><div class="card-body">
-          <h5 class="card-title">Pre-Workshop Survey</h5>
+          <h3 class="h5 card-title">Pre-Workshop Survey</h3>
           <p class="card-text">Please complete the Carpentries pre-workshop survey before your first session.</p>
           <a href="{{ site.pre_survey }}{{ site.github.project_title }}" class="btn btn-primary">Pre-Workshop Survey</a>
         </div></div>
       </div>
       <div class="col-sm-6">
         <div class="card text-center h-100"><div class="card-body">
-          <h5 class="card-title">Post-Workshop Survey</h5>
+          <h3 class="h5 card-title">Post-Workshop Survey</h3>
           <p class="card-text">Please complete the Carpentries post-workshop survey after your final session.</p>
           <a href="{{ site.post_survey }}{{ site.github.project_title }}" class="btn btn-primary">Post-Workshop Survey</a>
         </div></div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="card mb-3">
-  <h5 class="card-header">Schedule</h5>
+<section class="card mb-3" aria-labelledby="schedule-heading">
+  <h2 id="schedule-heading" class="h5 card-header">Schedule</h2>
   <div class="card-body">{% include custom-schedule.html %}</div>
-</div>
+</section>
 
 <hr/>
 
