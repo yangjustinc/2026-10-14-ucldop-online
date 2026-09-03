@@ -12,6 +12,7 @@ enddate: 2026-11-04
 instructor: ["Justin C Yang", "Naomi Launders"]
 helper: ["Stephanie Wu"]
 email: ["justin.yang@ucl.ac.uk"]
+registration_url:
 collaborative_notes:
 eventbrite:
 what3words:
@@ -74,7 +75,12 @@ layout: workshop
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Where</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
-          Online. Joining instructions will be sent to registered participants before the workshop.
+          <p>
+            The workshop will be delivered online via <strong>Microsoft Teams</strong>. Joining instructions will be sent to registered participants before the workshop.
+          </p>
+          <p class="mb-0">
+            For learners who would prefer to attend from Maple House, rooms have been reserved as optional workspace: <strong>Room 434</strong> on 14 October, 21 October, and 4 November, and <strong>Room 412</strong> on 28 October. These rooms will be unstaffed: instructors and helpers will teach and provide support through Teams and are not expected to be present onsite. The room booking is simply intended to provide a convenient place to join the online workshop from the office.
+          </p>
         </dd>
       </div>
       <div class="row">
@@ -86,7 +92,7 @@ layout: workshop
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Format</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
-          Four online half-day sessions with live coding, exercises, two short breaks each morning, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing.
+          Four online half-day sessions with live coding, exercises, two short breaks each morning, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing. Learners using the Maple House rooms should bring their own laptop and headphones or a headset and join the same Teams meeting as everyone else.
         </dd>
       </div>
       <div class="row">
@@ -96,6 +102,40 @@ layout: workshop
         </dd>
       </div>
     </dl>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <h5 class="card-header">Registration and Collaborative Notes</h5>
+  <div class="card-body">
+    <div class="row g-3">
+      <div class="col-sm-6">
+        <div class="card text-center h-100">
+          <div class="card-body">
+            <h5 class="card-title">Registration</h5>
+            {% if page.registration_url %}
+            <p class="card-text">Register for the workshop using Eventbrite.</p>
+            <a href="{{ page.registration_url }}" class="btn btn-primary">Register on Eventbrite</a>
+            {% else %}
+            <p class="card-text mb-0">Eventbrite registration link to be added.</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card text-center h-100">
+          <div class="card-body">
+            <h5 class="card-title">Collaborative Notes</h5>
+            {% if page.collaborative_notes %}
+            <p class="card-text">We will use an Etherpad for questions, notes, links, and code during the workshop.</p>
+            <a href="{{ page.collaborative_notes }}" class="btn btn-primary">Open the Etherpad</a>
+            {% else %}
+            <p class="card-text mb-0">Etherpad link to be added.</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
