@@ -14,7 +14,6 @@ helper: ["Stephanie Wu"]
 email: ["justin.yang@ucl.ac.uk"]
 collaborative_notes: "https://liveuclac-my.sharepoint.com/:t:/g/personal/rejujcy_ucl_ac_uk/IQDtWPeM8kNTR5MWWs4B9VPTAa2uPuBDr48B4Er8t2AJWRQ?e=vd78x2"
 eventbrite:
-what3words:
 layout: workshop
 ---
 
