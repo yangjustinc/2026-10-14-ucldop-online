@@ -27,7 +27,7 @@ layout: workshop
       The workshop is being run as a self-organised Carpentries <em>Mix &amp; Match</em> workshop. It uses selected episodes from the Software Carpentry <a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a> and <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lessons, with live coding and practical exercises based on the Gapminder data.
     </p>
     <p class="mb-0">
-      The R and Python strands each begin at introductory level. Learners may attend either strand or both. The second session in each strand builds on the first, so learners joining only Part 2 should already have equivalent foundational experience.
+      The R and Python strands each begin at introductory level. Learners are strongly encouraged to attend all four sessions for maximum benefit, as concepts and good practices introduced earlier in the series are reinforced throughout. If this is not possible, learners may attend either the R or Python strand; the second session in each strand builds on the first, so learners joining only Part 2 should already have equivalent foundational experience.
     </p>
   </div>
 </div>
@@ -86,7 +86,7 @@ layout: workshop
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Format</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
-          Four online half-day sessions with live coding, exercises, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing.
+          Four online half-day sessions with live coding, exercises, two short breaks each morning, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing.
         </dd>
       </div>
       <div class="row">
