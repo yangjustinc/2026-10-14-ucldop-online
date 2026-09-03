@@ -9,8 +9,8 @@ humandate: "Oct 14-Nov 4, 2026"
 humantime: "09:30-13:00"
 startdate: 2026-10-14
 enddate: 2026-11-04
-instructor: ["Dr Justin C Yang", "Dr Naomi Launders"]
-helper: ["Dr Stephanie Wu"]
+instructor: ["Justin C Yang", "Naomi Launders"]
+helper: ["Stephanie Wu"]
 email: ["justin.yang@ucl.ac.uk"]
 collaborative_notes: "https://liveuclac-my.sharepoint.com/:t:/g/personal/rejujcy_ucl_ac_uk/IQDtWPeM8kNTR5MWWs4B9VPTAa2uPuBDr48B4Er8t2AJWRQ?e=vd78x2"
 eventbrite:
@@ -21,47 +21,20 @@ layout: workshop
 <div class="card mb-3 border-0 bg-light">
   <div class="card-body">
     <p>
-      <strong>Reproducible Data Analysis for Mental Health Research</strong> is a four-session online workshop series for PhD students, postdoctoral researchers, and other research staff in the UCL Division of Psychiatry.
+      This four-session online workshop series is for PhD students, postdoctoral researchers, and other research staff in the UCL Division of Psychiatry.
     </p>
     <p>
-      The workshop is being run as a self-organised Carpentries <em>Mix &amp; Match</em> workshop. It uses selected episodes from the Software Carpentry <a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a> and <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lessons, with live coding and practical exercises based on the Gapminder data.
+      It is a self-organised Carpentries <em>Mix &amp; Match</em> workshop using selected episodes from the official Software Carpentry <a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a> and <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lessons. Teaching will use live coding and practical exercises based on the Gapminder data.
     </p>
     <p class="mb-0">
-      The R and Python strands each begin at introductory level. Learners are strongly encouraged to attend all four sessions for maximum benefit, as concepts and good practices introduced earlier in the series are reinforced throughout. If this is not possible, learners may attend either the R or Python strand; the second session in each strand builds on the first, so learners joining only Part 2 should already have equivalent foundational experience.
+      Both strands begin at introductory level. Learners are strongly encouraged to attend all four sessions, as concepts and good practices are reinforced across the series. If this is not possible, learners may attend either the R or Python strand; anyone joining only the second session of a strand should already have equivalent foundational experience.
     </p>
   </div>
 </div>
 
-<div class="row g-3 pb-3">
-  <div class="col-md-6">
-    <section class="card h-100" aria-labelledby="carpentries-heading">
-      <h2 id="carpentries-heading" class="h5 card-header">The Carpentries</h2>
-      <div class="card-body">
-        <p><strong><a href="https://carpentries.org">The Carpentries</a></strong> teaches foundational coding and data science skills to researchers through participatory, hands-on workshops.</p>
-        <p class="mb-0">This workshop follows Carpentries teaching practices and uses established Software Carpentry lesson materials, while selecting the episodes most relevant to our audience and available teaching time.</p>
-      </div>
-    </section>
-  </div>
-  <div class="col-md-6">
-    <section class="card h-100" aria-labelledby="coc-heading">
-      <h2 id="coc-heading" class="h5 card-header">Code of Conduct</h2>
-      <div class="card-body">
-        <p>Everyone participating in Carpentries activities is required to follow the <a href="https://docs.carpentries.org/policies/coc/">Carpentries Code of Conduct</a>.</p>
-        <p class="mb-0">The workshop is intended to provide a supportive environment in which learners can ask questions, make mistakes, and work through exercises together.</p>
-      </div>
-    </section>
-  </div>
+<div class="alert alert-light border mb-3" role="note">
+  Everyone participating in this workshop is required to follow the <a href="https://docs.carpentries.org/policies/coc/">Carpentries Code of Conduct</a>. The workshop is intended to provide a supportive environment in which learners can ask questions, make mistakes, and work through exercises together.
 </div>
-
-<section class="card mb-3" aria-labelledby="team-heading">
-  <h2 id="team-heading" class="h5 card-header">Workshop Team</h2>
-  <div class="card-body">
-    <p class="mb-0">
-      <strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a> and <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a><br>
-      <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>
-    </p>
-  </div>
-</section>
 
 <section class="card mb-3" aria-labelledby="logistics-heading">
   <h2 id="logistics-heading" class="h5 card-header">Workshop Logistics</h2>
@@ -75,7 +48,7 @@ layout: workshop
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Where</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
           <p>The workshop will be delivered online via <strong>Microsoft Teams</strong>. Joining instructions will be sent to registered participants before the workshop.</p>
-          <p class="mb-0">For learners who would prefer to attend from Maple House, rooms have been reserved as optional workspace: <strong>Room 434</strong> on 14 October, 21 October, and 4 November, and <strong>Room 412</strong> on 28 October. These rooms will be unstaffed: instructors and helpers will teach and provide support through Teams and are not expected to be present onsite. The room booking is simply intended to provide a convenient place to join the online workshop from the office.</p>
+          <p class="mb-0">For learners who would prefer to attend from Maple House, rooms have been reserved as optional workspace: <strong>Room 434</strong> on 14 October, 21 October, and 4 November, and <strong>Room 412</strong> on 28 October. These rooms will be unstaffed, with all teaching and support provided through Teams. They are simply available as a convenient place to join the online workshop from the office.</p>
         </dd>
       </div>
       <div class="row">
@@ -84,7 +57,11 @@ layout: workshop
       </div>
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Format</dt>
-        <dd class="col py-2 px-3 mx-0 mb-0">Four online half-day sessions with live coding, exercises, two short breaks each morning, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing. Learners using the Maple House rooms should bring their own laptop and headphones or a headset and join the same Teams meeting as everyone else.</dd>
+        <dd class="col py-2 px-3 mx-0 mb-0">Four online half-day sessions with live coding, exercises, two short breaks each morning, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing.</dd>
+      </div>
+      <div class="row">
+        <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Team</dt>
+        <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a> and <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>. <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>.</dd>
       </div>
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Contact</dt>
@@ -138,7 +115,7 @@ layout: workshop
 </section>
 
 <section class="card mb-3" aria-labelledby="surveys-heading">
-  <h2 id="surveys-heading" class="h5 card-header">Surveys</h2>
+  <h2 id="surveys-heading" class="h5 card-header">Carpentries Surveys</h2>
   <div class="card-body">
     <div class="row g-3">
       <div class="col-sm-6">
@@ -168,33 +145,33 @@ layout: workshop
 
 <h2 id="setup">Setup</h2>
 <p>
-  Please complete the relevant setup <strong>before the first session you plan to attend</strong>. You will need a Mac, Linux, or Windows computer on which you can install and run software, together with an up-to-date web browser. Tablets and Chromebooks are not recommended for following the workshop exercises. If you are using a UCL-managed computer and do not have permission to install software yourself, please arrange this in advance.
+  Please complete the relevant setup <strong>before the first session you plan to attend</strong>. Both lessons assume basic familiarity with files and folders. You will need a Mac, Linux, or Windows computer, together with an up-to-date web browser. Tablets and Chromebooks are not recommended for following the workshop exercises. If you are using a UCL-managed computer and do not have permission to install software yourself, please arrange any required installation in advance.
 </p>
 
 {% include install_instructions/videoconferencing.html %}
 
 <h3 id="r-setup">R and RStudio</h3>
 <p>
-  The official <a href="https://swcarpentry.github.io/r-novice-gapminder/">R lesson</a> assumes only that learners already have <strong>R</strong> and <strong>RStudio Desktop</strong> installed. For the sessions on 14 and 21 October:
+  The official R lesson assumes that learners already have <strong>R</strong> and <strong>RStudio Desktop</strong> installed, and understand how files and directories are organised. For the sessions on 14 and 21 October:
 </p>
 <ul>
   <li>install the latest version of <a href="https://www.r-project.org/">R</a>; and</li>
   <li>install the free Desktop version of <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>.</li>
 </ul>
 <p>
-  You do <strong>not</strong> need to pre-install R packages or run workshop code in advance. Installing and loading packages is introduced during the lesson itself.
+  You do not need to pre-install R packages or run lesson code in advance. Installing and loading packages is introduced in <a href="https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro.html">the first R episode</a>.
 </p>
 
 <h3 id="python-setup">Python and the Gapminder data</h3>
 <p>
-  The official <a href="https://swcarpentry.github.io/python-novice-gapminder/">Python lesson</a> requires learners to have <strong>Python 3</strong> installed and to download the lesson data before class. The lesson is taught using JupyterLab.
+  The official Python lesson requires learners to understand files, directories, and working directories, to have <strong>Python 3</strong> installed, and to download the Gapminder data before class. The lesson uses JupyterLab, pandas, and matplotlib.
 </p>
 <ul>
-  <li>Follow the lesson's <a href="https://swcarpentry.github.io/python-novice-gapminder/">current setup instructions</a> to install Python 3 and the recommended environment for your computer.</li>
+  <li>If you need to install the Python environment, follow the <a href="https://carpentries.github.io/workshop-template/#python">current Carpentries workshop-template Python setup instructions</a>.</li>
   <li>Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Gapminder data</a> before the first Python session.</li>
 </ul>
 <p>
-  You do <strong>not</strong> need to create notebooks, import libraries, or run plotting commands in advance: these are covered during the Python lesson.
+  You can review the <a href="https://swcarpentry.github.io/python-novice-gapminder/">Python lesson summary and prerequisites</a> before attending; there is no need to work through the lesson episodes in advance.
 </p>
 
 <h3 id="setup-help">If you have problems</h3>
@@ -203,7 +180,11 @@ layout: workshop
 </p>
 
 <h2 id="accessibility">Accessibility</h2>
-<p>We want the workshop to be accessible and inclusive. If there is anything we can reasonably do to support your participation, please contact <a href="mailto:justin.yang@ucl.ac.uk">justin.yang@ucl.ac.uk</a> before the workshop.</p>
+<p>
+  We want the workshop to be accessible and inclusive. If there is anything we can reasonably do to support your participation, please contact <a href="mailto:justin.yang@ucl.ac.uk">justin.yang@ucl.ac.uk</a> before the workshop. For information about accessibility features in Microsoft Teams, see the <a href="https://www.ucl.ac.uk/isd/services/communicate-collaborate/microsoft-teams">UCL ISD Microsoft Teams guidance</a>.
+</p>
 
 <h2 id="recordings">Recordings</h2>
-<p>Carpentries workshops are designed around live participation, coding, and exercises. Participants should therefore plan to attend in real time. Recordings are not currently planned.</p>
+<p>
+  Carpentries workshops are designed around live participation, coding, and exercises. Participants should therefore plan to attend in real time. Recordings are not currently planned.
+</p>
