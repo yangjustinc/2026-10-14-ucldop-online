@@ -137,43 +137,71 @@ layout: workshop
 <h2 id="setup">Setup</h2>
 
 <p>
-  Please complete the relevant setup before the first session you plan to attend. You will need a computer on which you can install and run the required software, together with an up-to-date web browser. If possible, test that the software opens successfully before the workshop.
+  Please complete the relevant setup <strong>before the first session you plan to attend</strong>. You will need a Mac, Linux, or Windows computer on which you can install and run software, together with an up-to-date web browser. Tablets and Chromebooks are not recommended for following the workshop exercises. If you are using a UCL-managed computer and do not have permission to install software yourself, please arrange this in advance.
+</p>
+<p>
+  Installation problems are much easier to resolve before a live workshop. Please open the software after installation and complete the checks below. The Carpentries also maintains a <a href="{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions</a> page covering common setup issues.
 </p>
 
-<div class="row g-3">
-  <div class="col-md-6">
-    <div class="card h-100">
-      <h5 class="card-header">R sessions</h5>
-      <div class="card-body">
-        <p>
-          Install the latest versions of <a href="https://cran.r-project.org/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop</a> before 14 October.
-        </p>
-        <p>
-          The R lesson uses several packages during the workshop, including <code>gapminder</code>, <code>ggplot2</code>, <code>dplyr</code>, <code>tidyr</code>, and <code>knitr</code>. We will provide final package-installation instructions to registered learners before the workshop.
-        </p>
-        <p class="mb-0">
-          See the <a href="https://swcarpentry.github.io/r-novice-gapminder/">R lesson setup and materials</a> for further details.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="card h-100">
-      <h5 class="card-header">Python sessions</h5>
-      <div class="card-body">
-        <p>
-          Install Python 3 and JupyterLab before 28 October. The Software Carpentry lesson recommends installing Python through <a href="https://www.anaconda.com/download">Anaconda</a>.
-        </p>
-        <p>
-          You will also need the Gapminder data used in the lesson. Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Python Gapminder data</a> before the first Python session.
-        </p>
-        <p class="mb-0">
-          See the <a href="https://swcarpentry.github.io/python-novice-gapminder/">Python lesson setup and materials</a> for further details.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+{% include install_instructions/videoconferencing.html %}
+
+<h3 id="r-setup">R and RStudio</h3>
+<p>
+  For the sessions on 14 and 21 October, install both <strong>R</strong> and <strong>RStudio Desktop</strong>. R is the programming language; RStudio is the development environment we will use to work with it.
+</p>
+<ol>
+  <li>Install the latest version of <a href="https://cran.r-project.org/">R</a> for your operating system.</li>
+  <li>Install the latest free version of <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop</a>.</li>
+  <li>Open RStudio and confirm that the Console pane starts without an error.</li>
+  <li>In the RStudio Console, run the command below to install the packages used in the workshop:</li>
+</ol>
+
+<pre><code>install.packages(c("gapminder", "ggplot2", "dplyr", "tidyr", "knitr", "rmarkdown"))</code></pre>
+
+<p>
+  When installation has finished, run the following. If it completes without an error and prints a small table of Gapminder data, your R setup is ready.
+</p>
+
+<pre><code>library(gapminder)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+head(gapminder)</code></pre>
+
+<p>
+  The full Software Carpentry <a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a> lesson is available online and can be used for reference before and after the workshop.
+</p>
+
+<h3 id="python-setup">Python and JupyterLab</h3>
+<p>
+  For the sessions on 28 October and 4 November, you will need <strong>Python 3</strong>, <strong>JupyterLab</strong>, <strong>pandas</strong>, and <strong>matplotlib</strong>. The Software Carpentry lesson recommends installing these through <a href="https://www.anaconda.com/download">Anaconda</a>, which provides them together and is the simplest supported route for this workshop.
+</p>
+<ol>
+  <li>Download and install the current Anaconda Distribution for your operating system.</li>
+  <li>Open <strong>Anaconda Navigator</strong> and launch <strong>JupyterLab</strong>, or open a terminal/Anaconda Prompt and run <code>jupyter lab</code>.</li>
+  <li>In JupyterLab, create a new Python 3 notebook and run the following cell:</li>
+</ol>
+
+<pre><code>import pandas as pd
+import matplotlib.pyplot as plt
+print(pd.__version__)</code></pre>
+
+<p>
+  If the cell runs without an error, the core Python software is ready.
+</p>
+
+<h4>Download the Gapminder data</h4>
+<p>
+  Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Python Gapminder data</a>. Put the extracted <code>data</code> folder somewhere easy to find; you will use these files during the Python sessions.
+</p>
+<p>
+  The full Software Carpentry <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lesson is available online for reference.
+</p>
+
+<h3 id="setup-help">If you have problems</h3>
+<p>
+  Please do not spend the start of the first session troubleshooting an installation if it can be avoided. If one of the checks above fails, consult the relevant lesson setup material or the Carpentries configuration-problems page first. If you are still unable to get the required software working, email <a href="mailto:justin.yang@ucl.ac.uk">justin.yang@ucl.ac.uk</a> before the workshop with your operating system and the error message you are seeing.
+</p>
 
 <h2 id="accessibility">Accessibility</h2>
 <p>
