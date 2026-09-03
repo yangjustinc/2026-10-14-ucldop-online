@@ -13,7 +13,7 @@ instructor: ["Justin C Yang", "Naomi Launders"]
 helper: ["Stephanie Wu"]
 email: ["justin.yang@ucl.ac.uk"]
 registration_url:
-collaborative_notes:
+collaborative_notes: "https://liveuclac-my.sharepoint.com/:t:/g/personal/rejujcy_ucl_ac_uk/IQDtWPeM8kNTR5MWWs4B9VPTAa2uPuBDr48B4Er8t2AJWRQ?e=vd78x2"
 eventbrite:
 what3words:
 layout: workshop
@@ -127,10 +127,10 @@ layout: workshop
           <div class="card-body">
             <h5 class="card-title">Collaborative Notes</h5>
             {% if page.collaborative_notes %}
-            <p class="card-text">We will use an Etherpad for questions, notes, links, and code during the workshop.</p>
-            <a href="{{ page.collaborative_notes }}" class="btn btn-primary">Open the Etherpad</a>
+            <p class="card-text">Use our shared UCL collaborative notes for questions, links, code snippets, and notes during the workshop.</p>
+            <a href="{{ page.collaborative_notes }}" class="btn btn-primary">Open Collaborative Notes</a>
             {% else %}
-            <p class="card-text mb-0">Etherpad link to be added.</p>
+            <p class="card-text mb-0">Collaborative notes link to be added.</p>
             {% endif %}
           </div>
         </div>
@@ -240,7 +240,7 @@ print(pd.__version__)</code></pre>
 
 <h3 id="setup-help">If you have problems</h3>
 <p>
-  Please do not spend the start of the first session troubleshooting an installation if it can be avoided. If one of the checks above fails, consult the relevant lesson setup material or the Carpentries configuration-problems page first. If you are still unable to get the required software working, email <a href="mailto:justin.yang@ucl.ac.uk">justin.yang@ucl.ac.uk</a> before the workshop with your operating system and the error message you are seeing.
+  Please do not spend the start of the first session troubleshooting an installation if it can be avoided. If one of the checks above fails, consult the relevant lesson setup material or the Carpentries configuration-problems page first. If you are using a UCL-managed computer and need help installing software or resolving permissions or configuration issues, please contact <a href="https://www.ucl.ac.uk/staff/task/get-help-service-desk">UCL IT Services</a>. For workshop-specific questions about which software or materials are required, contact the workshop organiser.
 </p>
 
 <h2 id="accessibility">Accessibility</h2>
