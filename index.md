@@ -32,8 +32,44 @@ layout: workshop
   </div>
 </div>
 
-<div class="alert alert-light border mb-3" role="note">
-  Everyone participating in this workshop is required to follow the <a href="https://docs.carpentries.org/policies/coc/">Carpentries Code of Conduct</a>. The workshop is intended to provide a supportive environment in which learners can ask questions, make mistakes, and work through exercises together.
+<div class="row g-3 pb-3">
+  <div class="col-md-6">
+    <section class="card h-100" aria-labelledby="carpentries-heading">
+      <h2 id="carpentries-heading" class="h5 card-header">The Carpentries</h2>
+      <div class="card-body">
+        <p>
+          <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the
+          <a href="{{site.dc_site}}">Data Carpentry</a>,
+          <a href="{{site.hpcc_site}}">High-Performance Computing Carpentry</a>,
+          <a href="{{site.lc_site}}">Library Carpentry</a>, and
+          <a href="{{site.swc_site}}">Software Carpentry</a>
+          communities of Instructors, Trainers, Maintainers, helpers, and supporters who share a mission to teach foundational computational and data science skills to researchers.
+        </p>
+        <p class="mb-0">
+          This workshop uses official Software Carpentry lesson material in a self-organised Mix &amp; Match format, selecting the R and Python episodes listed in the schedule below.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <div class="col-md-6 d-flex flex-column gap-3">
+    <section class="card flex-fill" aria-labelledby="clippings-heading">
+      <h2 id="clippings-heading" class="h5 card-header">Carpentries Clippings</h2>
+      <div class="card-body text-center">
+        <p><strong>Want to learn more and stay engaged with The Carpentries?</strong></p>
+        <p>Carpentries Clippings is The Carpentries' monthly newsletter, where community news, community job postings, and more are shared.</p>
+        <p class="mb-0"><a class="btn btn-success" href="https://carpentries.org/newsletter/">Sign up to our newsletter</a></p>
+      </div>
+    </section>
+
+    <section class="card flex-fill" aria-labelledby="coc-heading">
+      <h2 id="coc-heading" class="h5 card-header">Code of Conduct</h2>
+      <div class="card-body text-center">
+        <p>Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/policies/coc/">Code of Conduct</a>, which also outlines how to report an incident if needed.</p>
+        <p class="mb-0"><a class="btn btn-info" href="https://goo.gl/forms/KoUfO53Za3apOuOK2">Report a Code of Conduct Incident</a></p>
+      </div>
+    </section>
+  </div>
 </div>
 
 <section class="card mb-3" aria-labelledby="logistics-heading">
