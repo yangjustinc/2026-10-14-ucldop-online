@@ -187,27 +187,21 @@ layout: workshop
 
 <h3 id="r-setup">R and RStudio</h3>
 <p>
-  The official R lesson assumes that learners already have <strong>R</strong> and <strong>RStudio Desktop</strong> installed, and understand how files and directories are organised. For the sessions on 14 and 21 October:
+  To participate in the R sessions, please ensure you have the latest version of <strong>R</strong> and <strong>RStudio</strong> installed on your computer.
 </p>
 <ul>
-  <li>install the latest version of <a href="https://www.r-project.org/">R</a>; and</li>
-  <li>install the free Desktop version of <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>.</li>
+  <li>Download and install the latest version of <a href="https://www.r-project.org/">R</a>.</li>
+  <li>Download and install <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>. You will need the free Desktop version for your computer.</li>
 </ul>
-<p>
-  You do not need to pre-install R packages or run lesson code in advance. Installing and loading packages is introduced in <a href="https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro.html">the first R episode</a>.
-</p>
 
 <h3 id="python-setup">Python and the Gapminder data</h3>
 <p>
-  The official Python lesson requires learners to understand files, directories, and working directories, to have <strong>Python 3</strong> installed, and to download the Gapminder data before class. The lesson uses JupyterLab, pandas, and matplotlib.
+  The Python lesson requires <strong>Python 3</strong> and uses JupyterLab, pandas, and matplotlib. Please complete the following setup before the first Python session:
 </p>
 <ul>
-  <li>If you need to install the Python environment, follow the <a href="https://carpentries.github.io/workshop-template/#python">current Carpentries workshop-template Python setup instructions</a>.</li>
-  <li>Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Gapminder data</a> before the first Python session.</li>
+  <li>Follow the <a href="https://carpentries.github.io/workshop-template/#python">Carpentries workshop-template Python setup instructions</a> for your computer.</li>
+  <li>Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Gapminder data</a>.</li>
 </ul>
-<p>
-  You can review the <a href="https://swcarpentry.github.io/python-novice-gapminder/">Python lesson summary and prerequisites</a> before attending; there is no need to work through the lesson episodes in advance.
-</p>
 
 <h3 id="setup-help">If you have problems</h3>
 <p>
