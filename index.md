@@ -57,7 +57,7 @@ layout: workshop
       <div class="card-body text-center">
         <p><strong>Want to learn more and stay engaged with The Carpentries?</strong></p>
         <p>Carpentries Clippings is The Carpentries' monthly newsletter, where community news, community job postings, and more are shared.</p>
-        <p class="mb-0"><a class="btn btn-success" href="https://carpentries.org/newsletter/">Sign up to our newsletter</a></p>
+        <p class="mb-0"><a class="btn btn-success text-white text-decoration-none" href="https://carpentries.org/newsletter/">Sign up to our newsletter</a></p>
       </div>
     </section>
 
@@ -65,7 +65,7 @@ layout: workshop
       <h2 id="coc-heading" class="h5 card-header">Code of Conduct</h2>
       <div class="card-body text-center">
         <p>Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/policies/coc/">Code of Conduct</a>, which also outlines how to report an incident if needed.</p>
-        <p class="mb-0"><a class="btn btn-info" href="https://goo.gl/forms/KoUfO53Za3apOuOK2">Report a Code of Conduct Incident</a></p>
+        <p class="mb-0"><a class="btn btn-info text-dark text-decoration-none" href="https://goo.gl/forms/KoUfO53Za3apOuOK2">Report a Code of Conduct Incident</a></p>
       </div>
     </section>
   </div>
@@ -127,7 +127,7 @@ layout: workshop
           <div class="card-body">
             <h3 class="h5 card-title">Collaborative Notes</h3>
             <p class="card-text">Use our shared UCL collaborative notes for questions, links, code snippets, and notes during the workshop.</p>
-            <a href="{{ page.collaborative_notes }}" class="btn btn-primary">Open Collaborative Notes</a>
+            <a href="{{ page.collaborative_notes }}" class="btn btn-primary text-white text-decoration-none">Open Collaborative Notes</a>
           </div>
         </div>
       </div>
@@ -157,14 +157,14 @@ layout: workshop
         <div class="card text-center h-100"><div class="card-body">
           <h3 class="h5 card-title">Pre-Workshop Survey</h3>
           <p class="card-text">Please complete the Carpentries pre-workshop survey before your first session.</p>
-          <a href="{{ site.pre_survey }}{{ site.github.project_title }}" class="btn btn-primary">Pre-Workshop Survey</a>
+          <a href="{{ site.pre_survey }}{{ site.github.project_title }}" class="btn btn-primary text-white text-decoration-none">Pre-Workshop Survey</a>
         </div></div>
       </div>
       <div class="col-sm-6">
         <div class="card text-center h-100"><div class="card-body">
           <h3 class="h5 card-title">Post-Workshop Survey</h3>
           <p class="card-text">Please complete the Carpentries post-workshop survey after your final session.</p>
-          <a href="{{ site.post_survey }}{{ site.github.project_title }}" class="btn btn-primary">Post-Workshop Survey</a>
+          <a href="{{ site.post_survey }}{{ site.github.project_title }}" class="btn btn-primary text-white text-decoration-none">Post-Workshop Survey</a>
         </div></div>
       </div>
     </div>
