@@ -194,6 +194,22 @@ layout: workshop
   <li>Download and install <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>. You will need the free Desktop version for your computer.</li>
 </ul>
 
+<div class="card bg-light mb-3">
+  <div class="card-body">
+    <h4 class="h6 card-title">Optional preparation for new or rusty R users</h4>
+    <p>
+      No previous programming experience is required, and we will teach these topics in the workshop. However, the first R session covers the introductory material relatively quickly so that we can spend more time working with data. If you are completely new to R/RStudio, or have not used them for a while, it may help to familiarise yourself with the software beforehand using the official Software Carpentry lesson.
+    </p>
+    <ul class="mb-2">
+      <li><strong>Recommended:</strong> preview <a href="https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro.html">Introduction to R and RStudio</a>. Focus on recognising the RStudio panes, running commands in the console and from a script, assigning values to objects, calling functions, and installing/loading packages.</li>
+      <li><strong>If you have a little more time:</strong> also skim <a href="https://swcarpentry.github.io/r-novice-gapminder/02-project-intro.html">Project Management With RStudio</a> and <a href="https://swcarpentry.github.io/r-novice-gapminder/03-seeking-help.html">Seeking Help</a>. These introduce RStudio Projects, sensible project organisation, and ways to use R's built-in help.</li>
+    </ul>
+    <p class="mb-0">
+      You do not need to complete every exercise or memorise any syntax. The aim is simply to make RStudio and the basic workflow feel familiar before we revisit them together at the start of the first R session.
+    </p>
+  </div>
+</div>
+
 <h3 id="python-setup">Python and the Gapminder data</h3>
 <p>
   The Python lesson requires <strong>Python 3</strong> and uses JupyterLab, pandas, and matplotlib. Please complete the following setup before the first Python session:
