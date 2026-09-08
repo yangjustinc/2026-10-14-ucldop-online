@@ -20,7 +20,7 @@ layout: workshop
 <div class="card mb-3 border-0 bg-light">
   <div class="card-body">
     <p>
-      This four-session online workshop series is for PhD students, postdoctoral researchers, and other research staff in the UCL Division of Psychiatry.
+      This four-session online workshop series is <strong>free to attend</strong> and is for PhD students, postdoctoral researchers, and other research staff in the UCL Division of Psychiatry.
     </p>
     <p>
       It is a self-organised Carpentries <em>Mix &amp; Match</em> workshop using selected episodes from the official Software Carpentry <a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a> and <a href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lessons. Teaching will use live coding and practical exercises based on the Gapminder data.
@@ -95,6 +95,10 @@ layout: workshop
         <dd class="col py-2 px-3 mx-0 mb-0">Four online half-day sessions with live coding, exercises, two short breaks each morning, and regular opportunities for questions. The sessions are designed for active participation rather than passive viewing.</dd>
       </div>
       <div class="row">
+        <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Cost</dt>
+        <dd class="col py-2 px-3 mx-0 mb-0"><strong>Free to attend.</strong></dd>
+      </div>
+      <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Team</dt>
         <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a> and <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>. <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>.</dd>
       </div>
@@ -114,7 +118,7 @@ layout: workshop
         <div class="card text-center h-100">
           <div class="card-body">
             <h3 class="h5 card-title">Registration</h3>
-            <p class="card-text">Registration is now open. Please complete the short form to register for the workshop sessions you would like to attend.</p>
+            <p class="card-text">Registration is now open and the workshop is free to attend. Please complete the short form to register for the workshop sessions you would like to attend.</p>
             <a href="{{ page.registration }}" class="btn btn-success text-white text-decoration-none">Register for the Workshop</a>
           </div>
         </div>
