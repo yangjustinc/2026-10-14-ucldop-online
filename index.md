@@ -13,7 +13,7 @@ instructor: ["Justin C Yang", "Naomi Launders"]
 helper: ["Stephanie Wu"]
 email: ["justin.yang@ucl.ac.uk"]
 collaborative_notes: "https://liveuclac-my.sharepoint.com/:t:/g/personal/rejujcy_ucl_ac_uk/IQDtWPeM8kNTR5MWWs4B9VPTAa2uPuBDr48B4Er8t2AJWRQ?e=vd78x2"
-eventbrite:
+registration: "https://forms.cloud.microsoft/e/495WpMgj21"
 layout: workshop
 ---
 
@@ -114,11 +114,8 @@ layout: workshop
         <div class="card text-center h-100">
           <div class="card-body">
             <h3 class="h5 card-title">Registration</h3>
-            {% if page.eventbrite %}
-            <p class="card-text mb-0">Register using the Eventbrite checkout below.</p>
-            {% else %}
-            <p class="card-text mb-0">Eventbrite registration details will be added here.</p>
-            {% endif %}
+            <p class="card-text">Registration is now open. Please complete the short form to register for the workshop sessions you would like to attend.</p>
+            <a href="{{ page.registration }}" class="btn btn-success text-white text-decoration-none">Register for the Workshop</a>
           </div>
         </div>
       </div>
@@ -132,20 +129,6 @@ layout: workshop
         </div>
       </div>
     </div>
-    {% if page.eventbrite %}
-    <div class="mt-3">
-      <p><strong>Some adblockers block the registration window. If you do not see it below, please check your adblocker settings.</strong></p>
-      <div id="eventbrite-widget-container"></div>
-      <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-      <script type="text/javascript">
-        window.EBWidgets.createWidget({
-          widgetType: 'checkout',
-          eventId: {{ page.eventbrite }},
-          iframeContainerId: 'eventbrite-widget-container',
-        });
-      </script>
-    </div>
-    {% endif %}
   </div>
 </section>
 
