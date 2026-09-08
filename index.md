@@ -118,7 +118,7 @@ layout: workshop
         <div class="card text-center h-100">
           <div class="card-body">
             <h3 class="h5 card-title">Registration</h3>
-            <p class="card-text">Registration is now open and the workshop is free to attend. Please complete the short form to register for the workshop sessions you would like to attend.</p>
+            <p class="card-text">Registration is now open and the workshop is free to attend. Please complete the short form to register for the workshop sessions you would like to attend. <strong>Registration closes on 29 September.</strong></p>
             <a href="{{ page.registration }}" class="btn btn-success text-white text-decoration-none">Register for the Workshop</a>
           </div>
         </div>
