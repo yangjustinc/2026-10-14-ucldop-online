@@ -57,7 +57,7 @@ layout: workshop
       <div class="card-body text-center">
         <p><strong>Want to learn more and stay engaged with The Carpentries?</strong></p>
         <p>Carpentries Clippings is The Carpentries' monthly newsletter, where community news, community job postings, and more are shared.</p>
-        <p class="mb-0"><a class="btn btn-success text-white text-decoration-none" href="https://carpentries.org/newsletter/">Sign up to our newsletter</a></p>
+        <p class="mb-0"><a class="btn btn-primary text-white text-decoration-none" href="https://carpentries.org/newsletter/">Sign up to our newsletter</a></p>
       </div>
     </section>
 
@@ -65,7 +65,7 @@ layout: workshop
       <h2 id="coc-heading" class="h5 card-header">Code of Conduct</h2>
       <div class="card-body text-center">
         <p>Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/policies/coc/">Code of Conduct</a>, which also outlines how to report an incident if needed.</p>
-        <p class="mb-0"><a class="btn btn-info text-dark text-decoration-none" href="https://goo.gl/forms/KoUfO53Za3apOuOK2">Report a Code of Conduct Incident</a></p>
+        <p class="mb-0"><a class="btn btn-primary text-white text-decoration-none" href="https://goo.gl/forms/KoUfO53Za3apOuOK2">Report a Code of Conduct Incident</a></p>
       </div>
     </section>
   </div>
@@ -99,6 +99,10 @@ layout: workshop
         <dd class="col py-2 px-3 mx-0 mb-0"><strong>Free to attend.</strong></dd>
       </div>
       <div class="row">
+        <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Capacity</dt>
+        <dd class="col py-2 px-3 mx-0 mb-0">Each session will be limited to approximately <strong>8–10 participants</strong> to keep the workshop interactive and allow time for individual support. Places will be allocated on a <strong>first-come, first-served basis</strong>. If demand exceeds capacity, we will operate a waiting list.</dd>
+      </div>
+      <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Team</dt>
         <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a> and <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>. <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>.</dd>
       </div>
@@ -118,8 +122,8 @@ layout: workshop
         <div class="card text-center h-100">
           <div class="card-body">
             <h3 class="h5 card-title">Registration</h3>
-            <p class="card-text">Registration is now open and the workshop is free to attend. Please complete the short form to register for the workshop sessions you would like to attend. <strong>Registration closes on 29 September.</strong></p>
-            <a href="{{ page.registration }}" class="btn btn-success text-white text-decoration-none">Register for the Workshop</a>
+            <p class="card-text">Registration is now open and the workshop is free to attend. Each session is limited to approximately <strong>8–10 participants</strong>, with places allocated on a <strong>first-come, first-served basis</strong>. If demand exceeds capacity, we will operate a waiting list. <strong>Registration closes on 29 September.</strong></p>
+            <a href="{{ page.registration }}" class="btn btn-primary text-white text-decoration-none">Register for the Workshop</a>
           </div>
         </div>
       </div>
