@@ -9,7 +9,7 @@ humandate: "Oct 14-Nov 4, 2026"
 humantime: "09:30-13:00"
 startdate: 2026-10-14
 enddate: 2026-11-04
-instructor: ["Justin C Yang", "Naomi Launders"]
+instructor: ["Justin C Yang", "Naomi Launders", "Yunsoo Kim"]
 helper: ["Stephanie Wu"]
 email: ["justin.yang@ucl.ac.uk"]
 collaborative_notes: "https://liveuclac-my.sharepoint.com/:t:/g/personal/rejujcy_ucl_ac_uk/IQDtWPeM8kNTR5MWWs4B9VPTAa2uPuBDr48B4Er8t2AJWRQ?e=vd78x2"
@@ -104,7 +104,7 @@ layout: workshop
       </div>
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Team</dt>
-        <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a> and <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>. <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>.</dd>
+        <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a>, <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>, and <a href="https://bluesky333.github.io/">Dr Yunsoo Kim</a>. <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>.</dd>
       </div>
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Contact</dt>
