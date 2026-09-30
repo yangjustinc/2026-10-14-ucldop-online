@@ -117,8 +117,8 @@ layout: workshop
         <div class="card text-center h-100">
           <div class="card-body">
             <h3 class="h5 card-title">Registration</h3>
-            <p class="card-text">Registration is now open and the workshop is free to attend. Places are allocated on a <strong>first-come, first-served basis</strong>. If demand exceeds availability, we will operate a waiting list. <strong>Registration closes on 29 September.</strong></p>
-            <a href="{{ page.registration }}" class="btn btn-primary text-white text-decoration-none">Register for the Workshop</a>
+            <p class="card-text">Registration for this workshop has now closed.</p>
+            <span class="btn btn-secondary disabled" aria-disabled="true">Registration Closed</span>
           </div>
         </div>
       </div>
