@@ -9,8 +9,7 @@ humandate: "Oct 14-Nov 4, 2026"
 humantime: "09:30-13:00"
 startdate: 2026-10-14
 enddate: 2026-11-04
-instructor: ["Justin C Yang", "Naomi Launders", "Yunsoo Kim"]
-helper: ["Stephanie Wu"]
+instructor: ["Justin C Yang", "Naomi Launders", "Stephanie Wu", "Yunsoo Kim"]
 email: ["justin.yang@ucl.ac.uk"]
 collaborative_notes: "https://liveuclac-my.sharepoint.com/:t:/g/personal/rejujcy_ucl_ac_uk/IQDtWPeM8kNTR5MWWs4B9VPTAa2uPuBDr48B4Er8t2AJWRQ?e=vd78x2"
 registration: "https://forms.cloud.microsoft/e/495WpMgj21"
@@ -99,12 +98,8 @@ layout: workshop
         <dd class="col py-2 px-3 mx-0 mb-0"><strong>Free to attend.</strong></dd>
       </div>
       <div class="row">
-        <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Capacity</dt>
-        <dd class="col py-2 px-3 mx-0 mb-0">Each session will be limited to approximately <strong>8–10 participants</strong> to keep the workshop interactive and allow time for individual support. Places will be allocated on a <strong>first-come, first-served basis</strong>. If demand exceeds capacity, we will operate a waiting list.</dd>
-      </div>
-      <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Team</dt>
-        <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a>, <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>, and <a href="https://bluesky333.github.io/">Dr Yunsoo Kim</a>. <strong>Helper:</strong> <a href="https://smwu.github.io/">Dr Stephanie Wu</a>.</dd>
+        <dd class="col py-2 px-3 mx-0 mb-0"><strong>Instructors:</strong> <a href="https://www.justinyang.me">Dr Justin C Yang</a>, <a href="https://naomilaunders.co.uk/">Dr Naomi Launders</a>, <a href="https://smwu.github.io/">Dr Stephanie Wu</a>, and <a href="https://bluesky333.github.io/">Dr Yunsoo Kim</a>.</dd>
       </div>
       <div class="row">
         <dt class="col-sm-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Contact</dt>
@@ -122,7 +117,7 @@ layout: workshop
         <div class="card text-center h-100">
           <div class="card-body">
             <h3 class="h5 card-title">Registration</h3>
-            <p class="card-text">Registration is now open and the workshop is free to attend. Each session is limited to approximately <strong>8–10 participants</strong>, with places allocated on a <strong>first-come, first-served basis</strong>. If demand exceeds capacity, we will operate a waiting list. <strong>Registration closes on 29 September.</strong></p>
+            <p class="card-text">Registration is now open and the workshop is free to attend. Places are allocated on a <strong>first-come, first-served basis</strong>. If demand exceeds availability, we will operate a waiting list. <strong>Registration closes on 29 September.</strong></p>
             <a href="{{ page.registration }}" class="btn btn-primary text-white text-decoration-none">Register for the Workshop</a>
           </div>
         </div>
@@ -201,14 +196,36 @@ layout: workshop
   </div>
 </div>
 
-<h3 id="python-setup">Python and the Gapminder data</h3>
+<h3 id="python-setup">Python, JupyterLab, and the Gapminder data</h3>
 <p>
-  The Python lesson requires <strong>Python 3</strong> and uses JupyterLab, pandas, and matplotlib. Please complete the following setup before the first Python session:
+  The Python sessions use <strong>Python 3</strong> in <strong>JupyterLab</strong>, together with <strong>pandas</strong> and <strong>matplotlib</strong>. Please complete the setup before the first Python session on 28 October. We recommend the Carpentries' Miniforge/conda setup because it provides a consistent environment with the packages used in the lesson.
 </p>
-<ul>
-  <li>Follow the <a href="https://carpentries.github.io/workshop-template/#python">Carpentries workshop-template Python setup instructions</a> for your computer.</li>
-  <li>Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Gapminder data</a>.</li>
-</ul>
+<ol>
+  <li>
+    <strong>Install Miniforge.</strong> Follow the <a href="https://carpentries.github.io/workshop-template/#python">Carpentries Python installation instructions</a> for Windows, macOS, or Linux. If you are using a UCL-managed computer, arrange any installation or permissions support in advance.
+  </li>
+  <li>
+    <strong>Create the workshop environment.</strong> Download the <a href="{{ relative_root_path }}/data/carpentries_environment.yml">Carpentries environment file</a> and save it in your Downloads folder. Then open <strong>Miniforge Prompt</strong> on Windows, or a <strong>Terminal</strong> on macOS/Linux, and run:
+    <pre class="mt-2"><code>cd Downloads
+conda env create -f carpentries_environment.yml
+conda activate carpentries</code></pre>
+    If the environment already exists on your computer, you only need to activate it with <code>conda activate carpentries</code>.
+  </li>
+  <li>
+    <strong>Check that Python, the required packages, and JupyterLab work.</strong> With the <code>carpentries</code> environment active, run:
+    <pre class="mt-2"><code>python --version
+python -c "import pandas, matplotlib; print('Python setup OK')"
+jupyter lab</code></pre>
+    JupyterLab should open in your web browser. Once you have confirmed that it launches, you can close the browser tab and stop JupyterLab in the terminal with <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+  </li>
+  <li>
+    <strong>Download the lesson data.</strong> Download and unzip the <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">Gapminder data</a> somewhere easy to find. At the workshop, activate the <code>carpentries</code> environment, navigate to the folder containing the unzipped data, and start JupyterLab with <code>jupyter lab</code>.
+  </li>
+</ol>
+
+<div class="alert alert-info" role="alert">
+  <strong>Already have a working Python setup?</strong> You do not need to install Miniforge if you already have Python 3, JupyterLab, pandas, and matplotlib working locally. Please still run the checks above before the workshop so that setup problems do not take time away from the session.
+</div>
 
 <h3 id="setup-help">If you have problems</h3>
 <p>
