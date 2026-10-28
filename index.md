@@ -205,7 +205,7 @@ layout: workshop
     <strong>Install Miniforge.</strong> Follow the <a href="https://carpentries.github.io/workshop-template/#python">Carpentries Python installation instructions</a> for Windows, macOS, or Linux. If you are using a UCL-managed computer, arrange any installation or permissions support in advance.
   </li>
   <li>
-    <strong>Create the workshop environment.</strong> Download the <a href="{{ relative_root_path }}/data/carpentries_environment.yml">Carpentries environment file</a> and save it in your Downloads folder. Then open <strong>Miniforge Prompt</strong> on Windows, or a <strong>Terminal</strong> on macOS/Linux, and run:
+    <strong>Create the workshop environment.</strong> Download the <a href="https://raw.githubusercontent.com/carpentries/workshop-template/refs/heads/gh-pages/data/carpentries_environment.yml">Carpentries environment file</a> and save it in your Downloads folder. Then open <strong>Miniforge Prompt</strong> on Windows, or a <strong>Terminal</strong> on macOS/Linux, and run:
     <pre class="mt-2"><code>cd Downloads
 conda env create -f carpentries_environment.yml
 conda activate carpentries</code></pre>
