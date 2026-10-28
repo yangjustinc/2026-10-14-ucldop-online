@@ -206,16 +206,16 @@ layout: workshop
   </li>
   <li>
     <strong>Create the workshop environment.</strong> Download the <a href="https://raw.githubusercontent.com/carpentries/workshop-template/refs/heads/gh-pages/data/carpentries_environment.yml">Carpentries environment file</a> and save it in your Downloads folder. Then open <strong>Miniforge Prompt</strong> on Windows, or a <strong>Terminal</strong> on macOS/Linux, and run:
-    <pre class="mt-2"><code>cd Downloads
+    <pre class="mt-2" style="white-space: pre-wrap;">cd Downloads
 conda env create -f carpentries_environment.yml
-conda activate carpentries</code></pre>
+conda activate carpentries</pre>
     If the environment already exists on your computer, you only need to activate it with <code>conda activate carpentries</code>.
   </li>
   <li>
     <strong>Check that Python, the required packages, and JupyterLab work.</strong> With the <code>carpentries</code> environment active, run:
-    <pre class="mt-2"><code>python --version
+    <pre class="mt-2" style="white-space: pre-wrap;">python --version
 python -c "import pandas, matplotlib; print('Python setup OK')"
-jupyter lab</code></pre>
+jupyter lab</pre>
     JupyterLab should open in your web browser. Once you have confirmed that it launches, you can close the browser tab and stop JupyterLab in the terminal with <kbd>Ctrl</kbd>+<kbd>C</kbd>.
   </li>
   <li>
