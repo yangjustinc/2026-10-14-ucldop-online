@@ -266,6 +266,11 @@ code {
   background-color: #e7e7e7;
 }
 
+// Preserve line breaks in multi-line terminal commands and code blocks.
+pre code {
+  white-space: pre;
+}
+
 samp { hyphens: none; }
 
 dt { margin-top: 1.3em; }
